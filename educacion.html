@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<img src="img/logoYo.svg">
+	<h1>Resumen curricular</h1>
+
+	<h3>Juan Sebastián Beltrán</h2>
+	<h4>9 de noviembre de 1997, Bogotá - Colombia</h3>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="educacion.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+
+	<h2>Educación</h2>
+
+	<table border="2">
+		<tr>
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Universidad de los Andes</td>
+			<td>Bogotá</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<td>2017</td>
+			<td>Next University</td>
+			<td>Bogotá</td>
+			<td>No</td>
+		</tr>
+	</table>
+
+	<h2>Agregar Estudios</h2>
+
+	<form>
+		
+		<p>
+		<label>Año:</label><input type="number" name="año" max="2017" min="1990" required><br>
+		</p>
+		<p>
+		<label>Institución:</label><input type="text" name="institucion" required><br>
+		</p>
+		<p>
+		<label>Lugar:</label>
+		<textarea rows="4" cols="50"></textarea><br>
+		</p>
+		<p>
+		<label>¿Culminó?</label>
+		<input type="radio" name="yes" required>Si
+		<input type="radio" name="yes" required>No<br>
+		</p>
+		<input type="submit" value="Enviar">
+
+	</form>
+
+	<ul>
+
+		<p>Derechos reservados</p>
+
+		<li><b>Email:</b> js.beltran12@uniandes.edu.co</li>
+		<li><b>Telefono:</b> 3008775220</li>
+		<li><b>Dirección:</b> Carrera 47a # 22-98 apto. 201</li>
+
+	</ul>
+
+</body>
+</html>
